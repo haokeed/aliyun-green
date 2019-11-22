@@ -22,7 +22,7 @@ PhalApi 2.x扩展类库，基于Aliyun的内容安全扩展。
 在/application/provider.php文件中，注册：  
 ```php
 return [
-    'txtgreen'      => \haokeed\AliyunGreen::class,
+    'txtgreen'      =>\Haokeed\AliyunGreen\Think51Provider::class
 ];
 ```
 

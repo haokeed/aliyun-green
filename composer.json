@@ -1,6 +1,7 @@
 {
 	"name": "haokeed/aliyun-green",
 	"description": "扩展类库：基于Aliyun的内容安全扩展",
+	"license": "MIT",
 	"authors": [{
 		"name": "haokeed",
 		"email": "390065583@qq.com"

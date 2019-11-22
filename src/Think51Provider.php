@@ -11,7 +11,7 @@ class Think51Provider {
 
 	public function __construct($config = NULL) {
 		if (is_null($config)) {
-			$config = Config::get('aliyun_green');
+			$config = Config::get('aliyun_green.')['AliyunGreen'];
 		}
 		AlibabaCloud::accessKeyClient($config['accessKeyId'], $config['accessKeySecret'])
 			->regionId($config['regionId']) // 设置客户端区域，使用该客户端且没有单独设置的请求都使用此设置
