@@ -1,0 +1,16 @@
+{
+	"name": "haokeed/aliyun-green",
+	"description": "扩展类库：基于Aliyun的内容安全扩展",
+	"authors": [{
+		"name": "haokeed",
+		"email": "390065583@qq.com"
+	}],
+	"require": {
+		"alibabacloud/sdk": "^1.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Haokeed\\AliyunGreen\\": "src"
+		}
+	}
+}
